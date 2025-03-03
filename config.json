@@ -24,7 +24,7 @@
             },
             "gamble": {
                 "coinflip": false,
-                "slot": false,
+                "slot": false
             },
             "animals": false,
             "inventory": true,
