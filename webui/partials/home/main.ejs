@@ -1,0 +1,108 @@
+<!-- Main Home Content -->
+<div id="home-content">
+    <!-- User Info Section -->
+    <div class="userinfo-section" id="userinfo">
+        <h2 class="text-container">User Info</h2>
+        <p>
+            <div class="text-container">
+                Nickname:
+                <span id="usernick">çıkaramadım abi kimsin sen</span>
+            </div>
+            <div class="text-container">
+                username:
+                <span id="username">çıkaramadım abi kimsin sen</span>
+            </div>
+        </p>
+        <p>
+            <div class="text-container">
+                Farm Bot Status: <span id="bot-status">Stopped</span>
+            </div>
+        </p>
+        <p>
+            <div class="text-container">
+                WebSocket Status:
+                <span id="ws-status">Disconnected</span>
+            </div>
+        </p>
+    </div>
+    <!-- Actions Section -->
+    <div class="actions-section" id="actions">
+        <h2 class="text-container">Actions</h2>
+        <div class="action-btns">
+            <button
+                class="btn btn-success btn-custom"
+                onclick="sendAction('start')"
+            >
+                Start
+            </button>
+            <button
+                class="btn btn-info btn-custom"
+                onclick="sendAction('pause')"
+            >
+                Pause</button
+            ><button
+                class="btn btn-warning btn-custom"
+                onclick="sendAction('resume')"
+            >
+                Resume</button
+            ><button
+                class="btn btn-danger btn-custom"
+                onclick="showrebootalertPopup()"
+            >
+                Reboot
+            </button>
+        </div>
+    </div>
+    <!-- Stats Section -->
+    <h2 class="text-container">Stats</h2>
+    <div class="stats-grid">
+        <div class="stat-box">
+            <span id="hunt-value" class="value">0</span>
+            <span class="label">Hunt</span>
+        </div>
+        <div class="stat-box">
+            <span id="battle-value" class="value">0</span>
+            <span class="label">Battle</span>
+        </div>
+        <div class="stat-box">
+            <span id="pray-value" class="value">0</span>
+            <span class="label">Pray</span>
+        </div>
+        <div class="stat-box">
+            <span id="curse-value" class="value">0</span>
+            <span class="label">Curse</span>
+        </div>
+        <div class="stat-box">
+            <span id="huntbot-value" class="value">0</span>
+            <span class="label">Huntbot</span>
+        </div>
+        <div class="stat-box">
+            <span id="vote-value" class="value">0</span>
+            <span class="label">Vote</span>
+        </div>
+        <div class="stat-box">
+            <span id="giveaway-value" class="value">0</span>
+            <span class="label">Giveaway</span>
+        </div>
+        <div class="stat-box">
+            <span id="captcha-value" class="value">0</span>
+            <span class="label">Captcha</span>
+        </div>
+        <div class="stat-box">
+            <span id="slot-value" class="value">0</span>
+            <span class="label">Slot</span>
+        </div>
+        <div class="stat-box">
+            <span id="coinflip-value" class="value">0</span>
+            <span class="label">Coinflip</span>
+        </div>
+        <div class="stat-box override">
+            <span id="cowoncywon-value" class="value">0</span>
+            <span class="label">Cowoncy won by gambling</span>
+        </div>
+        <div class="stat-box highlight">
+            <span id="solvedcaptcha-value" class="value">0</span>
+            <span class="label">Solved Captcha</span>
+        </div>
+    </div>
+</div>
