@@ -71,7 +71,7 @@
         "owoprefix": "owo",
         "discordrpc": false,
         "chatfeedback": true,
-        "autophrases": false,
+        "autophrases": true,
         "autoresume": true,
         "autojoingiveaways": true,
 
