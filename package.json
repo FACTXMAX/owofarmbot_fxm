@@ -1,5 +1,5 @@
 {
-    "name": "owofarmbot_stable",
+    "name": "owofarmbot_fxm",
     "version": "0.0.9.2",
     "version_note": "fixed bugs when updating config via webui (now your interval values are properly saved in config) & webui log is slightly colored.",
     "description": "Discord OwO farm bot stable with CAPTCHA(BAN) protection",
@@ -24,7 +24,7 @@
         "owobot",
         "owoautofarmer"
     ],
-    "author": "Mid0aria",
+    "author": "FACTXMAX",
     "license": "ISC",
     "scripts": {
         "start": "node main.js",
